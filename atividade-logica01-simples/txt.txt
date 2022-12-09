@@ -1,0 +1,158 @@
+readme.txt
+LÓGICA PROGRAMAÇÃO - aplicar todos esses fundamentos para resolver um problema
+
+ETAPA 1
+-> dados: 18 - input -> entrada de dados - 
+
+
+ETAPA 2 
+-> manipulação aritmética 
+
+-> estruturas condicionais - desvio de fluxos
+
+-> estruturas de repetição - formas de repetir um determinado conjunto de de instruções
+
+-> rotinas - conjunto de de instruções que são executação conforme a necessidade
+
+ETAPA 3
+-> informação - output -> representação do mínimo para maior idade - idade de alguém - pessoa avoada
+
+
+valor1 = 10;
+valor2 = 20;
+
+  se(valor1 > valor2) 
+     entao o valor1 é maior
+
+  senao se(valor2 > valor1)
+    entao o valor2 é o maior
+  
+  senao
+      os valores são iguais
+
+
+7. As maçãs desta estação custam R$0,30 se forem compradas
+(menos) do que uma dúzia(12), 
+
+e R$0,25 se forem compradas pelo menos
+doze. 
+
+Desenvolva um algoritmo que leia o número de maçãs
+compradas, 
+
+calcule e escreva o valor total da compra.
+--------------------------------------------------------------------
+
+quantidade = 5;
+
+se(quantidade < 12)
+    valorCompra = quantidade * 0.30
+    o valor da compra é R$valorCompra
+
+senao 
+   valorCompra = quantidade * 0.25
+   o valor da compra é R$valorCompra
+
+
+---------------------------------------
+
+let divisao = 10 / 2; => 5
+let resto = 10 % 2; =>  0
+
+
+
+Vamos praticar!
+Chegou a hora de aplicar o conhecimento adquirido em nosso encontro.
+Lembrando sempre que os exercícios e desafios serão nossos principais
+indicadores sobre o conhecimento de vocês, tanto para ajudá-los como
+na hora do direcionamento para as vagas.
+Utilizando Javascript faça os seguintes exercícios:
+
+1. Desenvolva um algoritmo que armazene o valor 10 em uma variável
+A e o valor 20 em uma variável B. A seguir (utilizando apenas
+atribuições entre variáveis) troque os seus conteúdos fazendo com
+que o valor que está em A passe para B e vice-versa. Ao final,
+escrever os valores que ficaram armazenados nas variáveis.
+
+2. Desenvolva um algoritmo para ler o número total de eleitores de um
+município, o número de votos brancos, nulos e válidos. Calcular e
+escrever o percentual que cada um representa em relação ao total
+de eleitores.
+
+3. O custo de um carro novo ao consumidor é a soma do custo de
+fábrica com a porcentagem do distribuidor e dos impostos
+(aplicados ao custo de fábrica). Supondo que o percentual do
+distribuidor seja de 28% e os impostos de 45%, escrever um
+algoritmo para ler o custo de fábrica de um carro,calcular e escrever
+o custo final ao consumidor.
+
+4. Uma revendedora de carros usados paga a seus funcionários
+vendedores um salário fixo por mês, mais uma comissão também
+fixa para cada carro vendido e mais 5% do valor das vendas por ele
+efetuadas. Escrever um algoritmo que leia o número de carros por
+ele vendidos, o valor total de suas vendas, o salário fixo e o valor que
+ele recebe por carro vendido. Calcule e escreva o salário final do
+vendedor.
+
+5. Escreva um algoritmo para ler uma temperatura em graus Celsius,
+calcular e escrever o valor correspondente em graus Fahrenheit.
+
+6. Desenvolva um algoritmo para ler dois valores e imprimir uma das
+três mensagens a seguir:
+a. ‘Números iguais’, caso os números sejam iguais;
+b. ‘Primeiro é maior’, caso o primeiro seja maior que o segundo;
+c. ‘Segundo maior’, caso o segundo seja maior que o primeiro.
+
+7. As maçãs desta estação custam R$0,30 se forem compradas
+menos do que uma dúzia 12,
+ e R$0,25 se forem compradas pelo menos
+doze.
+Desenvolva um algoritmo que leia o número de maçãs
+compradas, 
+calcule e escreva o valor total da compra.
+
+8. Escreva um algoritmo que tenha como valores de entradas o nome
+e idade do usuário e imprima no terminal o nome e a quantidade de
+letras que o nome possui, bem como a idade e o ano de nascimento
+do usuário. Ex: “Nome: Pedro, 5 letras. Idade: 22 anos, nasceu em
+2000”.
+
+9. Crie um algoritmo que armazene um número inteiro positivo, e gere
+um alerta com as seguintes mensagens:
+a. “Número é par!”, se o valor armazenado for par;
+b. “Número é impar!”, se o valor armazenado for ímpar;
+
+10. Escreva um algoritmo que armazene o ano atual e o ano de
+nascimento de uma pessoa. Escrever uma mensagem no console
+que diga se ela poderá ou não votar este ano (não é necessário
+considerar o mês em que a pessoa nasceu).
+
+Este exercício deverá ser postado na Class até o horário estipulado da
+tarefa na plataforma. Crie um arquivo compactado contendo os arquivos
+com a resolução da atividade e realize o upload no post da atividade no
+Class.
+
+Para que possamos construir uma base sólida de aprendizado é preciso
+praticar.
+
+Bora implementar tudo isso! 
+
+
+/* etapa 1
+let nome = 'João';
+let idade = 27;
+let anoAtual = 2022
+
+etapa 2
+
+let quantidadeDeLetras = nome.length    ---> captura o tamanho da string = quantidade de caracteres/espaço utilizados para 
+armazenar esse dado
+let anoNascimento = anoAtual - idade;
+
+etapa 3
+console.log(`Nome: ${nome}, ${quantidadeDeLetras} letras`);
+console.log(`Idade: ${idade}, nasceu em ${anoNascimento}`); */
+
+
+// 0 === par  -->  1 === impar
+// 0 === false    1 === true
